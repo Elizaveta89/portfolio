@@ -1,0 +1,105 @@
+.thead {
+	text-align: center;
+	background: black;
+	color: white;
+
+}
+
+body {
+	margin: 0;
+}
+.form-table { 
+	width: 80%;
+	min-width: 600px;
+
+}
+
+.table-body{
+	background-color: #dce1ea;
+}
+
+.table-text{
+	padding: 2px;
+	width: 250px;
+	line-height: 20px;
+
+}
+
+.text-area {
+	resize: none;
+	width: 400px;
+	height: 300px;
+	
+}
+
+.text-field {
+	border: 3px solid black;
+	border-radius: 4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+
+}	 
+.text-field:focus {
+	border-color: red;
+}
+
+.center-text {
+	text-align: center;
+}
+.button {
+	background-color: #e80d0d; 
+	width: 150px;
+	height: 50px;
+	border-radius: 4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: #ce1010; 
+}
+.button:active {
+	border:none;
+}
+.table-tfoot {
+	background-color: #51b9ff;
+	height: 30px;
+	color: white; 
+	text-decoration: underline;
+
+}
+.small-header {
+	font-size: 16px;
+}
+table {
+	border-collapse: collapse;
+}
+thead {
+	font-weight: bold;
+}
+.table-style {
+	width: 500px;
+}
+.table-style tr {
+	border: 1px solid #c6c0c0 ;
+}
+
+.table-style td {
+	border: 1px solid #c6c0c0;
+}
+
+.table-style td:first-child {
+	text-align: right;
+	font-weight: bold;
+}
+td[colspan="3"] {
+	border:2px solid black;
+	vertical-align: middle;
+
+}
+td[rowspan="2"] {
+	border:2px solid red;
+	vertical-align: middle;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru-Ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>form tables</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<form action="" method="POST">
+	<table class= "form-table" cellspacing="0">
+		<thead class="thead">
+			<tr>
+				<td colspan="2">
+					<h2>Обратная связь</h2>
+				</td>
+			</tr>
+		</thead>
+		<tbody class="table-body">
+			<tr>
+				<td>
+					<label for="name">
+						Имя:
+					</label>
+				</td>
+				<td>
+					<input type="text" class="table-text text-field " id="name" placeholder="Имя">
+					</input>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="lastname">Фамилия:</label>
+				</td>
+				<td>
+					<input type="text" class="table-text text-field" id="lastname" placeholder="Фамилия">
+					</input>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Пол:
+				</td>
+				<td>
+					<input type="radio" name="sex" id="man"><label for="man">Муж.</label>
+					<input type="radio" name="sex" id="woman"><label for="woman">Жен.</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Тема вопроса:
+				</td>
+				<td>
+					<select name="">
+						<option value="">Выберите тему</option>
+						<option value="">Не работает сайт</option>
+						<option value="">Лежит хостинг</option>
+						<option value="">Не отправляется письмо</option>
+						
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="center-text" >
+					<h2 class="small-header">Текст сообщения:</h2>
+				</td>
+			</tr>
+			<tr>
+				<td class="center-text" colspan="2">
+					<textarea  class="text-area text-field"  name="" placeholder="Сообщение"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td class="center-text" colspan="2">
+					<input type="submit" class="button" value="отправить" name="">
+				</td>
+			</tr>
+		</tbody>
+		<tfoot >
+			<tr>
+				<td class="center-text table-tfoot " colspan="2">
+					&copy; указывайте только подлинные данные
+				</td>
+			</tr>
+
+		</tfoot>
+
+	</table>
+	</form>
+	<br>
+	<hr>
+	<br>
+	<table class="table-style">
+		<thead>
+			<tr>
+				<td>#</td>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>		
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>&lt;td&gt;&lt;/td&gt;</td>
+				<td>&lt;td&gt;&lt;/td&gt;</td>
+				<td>&lt;td&gt;&lt;/td&gt;</td>
+				<td rowspan="3" colspan="3">&lt;td&gt;rowspan="3" colspan="3"&lt;/td&gt;</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td rowspan="2">&lt;td rowspan="2"&gt;
+				&lt;/td&gt;</td>
+				<td>&lt;td&gt;
+				&lt;/td&gt;</td>
+				<td>&lt;td&gt;
+				&lt;/td&gt;</td>
+			
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>&lt;td&gt;
+				&lt;/td&gt;</td>
+				<td>&lt;td&gt;
+				&lt;/td&gt;</td>
+
+			</tr>
+
+		</tbody>
+	</table>
+	<br>
+	<hr>
+	<br>
+	<br>
+</body>
+</html>
