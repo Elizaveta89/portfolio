@@ -4,70 +4,105 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
  	<meta name = "viewport" content = "width=device-width, initial-scale=1">
- 	<link rel="stylesheet" href="../css/normalize.css">
- 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
- 	<link rel="stylesheet" href="../css/styles.css">
+ 	<link rel="stylesheet/less" href="../css/main.less">
   	<title>Обо мне</title>
-  	<script type="text/javascript" src="../js/modernizr-custom.js"></script>
+  	<!-- <script type="text/javascript" src="../js/modernizr-custom.js"></script> -->
+  	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+
 </head>
 
 <body>
 	<div class="wrapper">
 		<div class="maincontent">
-			<header class="page_top">
-				<div class="conteiner">
+
+			<!-- header -->
+
+			<header class="header">
+				<div class="container">
 					<div class="user">
-						<div class="user_avatar">
-							<img src="../imgs/_minime.jpg" alt="Я" class="user_avatar_foto">
+						<div class="user__avatar">
+							<img src="../imgs/avatar/_minime.png" alt="Я" class="user__avatar_foto">
 						</div>
 						<div class="user__name">
 							Елизавета Овинова
 						</div>
 					</div>
+
+					<!-- contacts -->
+
 					<div class="contacts">
-						<a href="#" class="contacts_trigger">Мои контакты</a>	
+						<a href="#" class="contacts__trigger">Мои контакты</a>	
 					</div>
 				</div>
 			</header>
+
+			<!-- sidebar -->
+
 			<div class="content">
-				<aside class="sidebar">
-					<nav class="nav">
-						<ul class="nav_list">
-							<li class="nav_list_iteam"></li>
-							<li></li>
-							<li></li>
-						</ul>
-						
+				<div class="container">
+					<aside class="sidebar">
+						<nav class="nav">
+							<ul class="nav__list">
+								<li class="nav__item nav__item-active">
+									<a href="#" class="nav__link nav__link-me">Обо мне</a>
 
+								</li>
+								<li class="nav__item">
+									<a href="#" class="nav__link nav__link-career">Карьерный путь</a>
 
-					</nav>
-					
+								</li>
+								<li class="nav__item">
+									<a href="#" class="nav__link nav__link-portfolio">Портфолио</a>
+								</li>	
+							</ul>
+						</nav>
+					</aside>
 
+			       <!-- main -->
 
-
-				</aside>
-				
-				
-
-
-
-			</div>
-		
-		
-
-
-
-
-
-
-
-			<div class="empty"></div>
-			<footer>
-		
-
-			</footer>
+					<main class="stuff">
+						<div class="about">
+							<div class="about__left">
+								<div class="about__pic">
+									<img src="../imgs/avatar/ava.png" class="about__pic-item" alt="">
+								</div>
+							</div>
+							<div class="about__right">
+								<h1 class="about__title">Обо мне</h1>
+								<div class="about__text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto saepe, officia quae corrupti dolore qui placeat fugiat doloremque deleniti omnis.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga consequuntur unde cum excepturi perferendis reprehenderit sunt ipsum officia minus ab!</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam dolore, aperiam ut! Veniam reprehenderit enim magnam rem deleniti culpa sint.</p>
+								</div>
+								<div class="about__dowload">
+									<a href="#" class="about__dowload-link about__dowload-link-pic" download>Скачать резюме</a>
+								</div>
+							</div>
+						</div>
+					</main>
+				</div>
+			</div>	
 		</div>
-	</div>	
+	</div>
+	<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="copyright">
+				© Дизайн сайта был разработан в школе LoftSchool
+			</div>
+				<ul class="socials__list">
+					<li class="socials__item">
+						<a href="https://www.facebook.com/elizaveta.ovinova" class="socials__link socials__link-fb" target="_blank"></a>	
+					</li>
+					<li class="socials__item">
+						<a href="http://vk.com/id272177" class="socials__link socials__link-vk" target="_blank"></a>	
+					</li>
+					<li class="socials__item">
+						<a href="#" class="socials__link socials__link-tw" target="_blank"></a>	
+					</li>
+				</ul>
+		</div>
+	</footer>	
 </body>
 
 </html>

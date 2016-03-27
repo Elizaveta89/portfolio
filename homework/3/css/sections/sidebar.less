@@ -1,0 +1,84 @@
+
+.content {
+	margin-top: 26px;
+}
+.sidebar {
+	width: 230px;
+	float: left;
+}
+
+.nav__list {
+	text-align: right;
+}
+
+.nav__link {
+	display: block;
+	padding: 10px 0;
+	padding-right: 24px;
+	text-decoration: none;
+	font-size: 18px;
+	color: @black;
+	border-right: 6px solid transparent;
+	position: relative;
+
+
+
+	&:hover {
+		color: @blue;
+		&.nav__link-career:before {
+			background: url("../imgs/icon/career-active.png") 0 0 no-repeat;
+		}
+		&.nav__link-portfolio:before {
+			background: url("../imgs/icon/portfolio-active.png") 0 0 no-repeat;
+		}
+	}	
+
+	&:active {
+		color: @blue;
+		.fira(bold);
+	}
+	
+}
+
+.nav__item-active {
+	.nav__link {
+		border-color: @blue;
+		.fira(bold);
+		color: @blue;
+	}
+
+	.nav__link-me:before {
+		background: url("../imgs/icon/me-active.png") 0 0 no-repeat;
+	}	
+}
+
+.nav__link-me:before {
+	content: "";
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+    background: url("../imgs/icon/me.png") 0 0 no-repeat;
+
+}
+
+.nav__link-career:before {
+	content: "";
+    display: inline-block;
+    width: 25px;
+    height: 17px;
+    background: url("../imgs/icon/career.png") 0 0 no-repeat;
+}
+
+.nav__link-portfolio:before{
+	content: "";
+    display: inline-block;
+    width: 27px;
+    height: 15px;
+    background: url("../imgs/icon/portfolio.png") 0 0 no-repeat;
+
+}
+
+
+
+
+

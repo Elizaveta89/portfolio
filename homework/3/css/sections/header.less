@@ -1,0 +1,63 @@
+.header{
+	background: #fff;
+	
+	.box-shadow (0px 1px 3px 0px rgba(0, 0, 0, 0.3));
+
+	.container {
+	 	height: 80px;
+	 	position: relative;
+	}
+
+}
+.user {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	display: inline-block;
+	
+}
+
+.user__avatar {
+	.inlineblock (middle);
+	.border-radius (50%);
+	border: 2px solid #d37613;
+	overflow: hidden;
+
+
+}
+.user__avatar_foto {
+	display: block;
+	height: 62px;
+	width: 62px;
+
+}
+.user__name {
+	.inlineblock (middle);
+	max-width: 250px;
+	margin-left: 20px;
+	
+}
+
+.contacts {
+	position: absolute;
+	right: 0;
+	top: 30px;
+	
+
+
+}
+.contacts__trigger  {
+	color:#33c1e3;
+	text-decoration: none;
+	// border-bottom: 2px dotted #33c1e3;
+	font-size: 18px;
+	background: url('../imgs/decor/dotted-border.png') 0 bottom repeat-x;
+
+
+	&:hover {
+		color: @red;
+		background: url('../imgs/decor/dotted-border-active.png') 0 bottom repeat-x;
+
+	}
+
+}
