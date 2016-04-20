@@ -25,12 +25,18 @@
 
 	&:hover {
 		color: @blue;
+
+		&.nav__link-me:before {
+			background: url("../imgs/icon/me-active.png") 0 0 no-repeat;
+		}
+
 		&.nav__link-career:before {
 			background: url("../imgs/icon/career-active.png") 0 0 no-repeat;
 		}
 		&.nav__link-portfolio:before {
 			background: url("../imgs/icon/portfolio-active.png") 0 0 no-repeat;
 		}
+
 	}	
 
 	&:active {
@@ -50,6 +56,14 @@
 	.nav__link-me:before {
 		background: url("../imgs/icon/me-active.png") 0 0 no-repeat;
 	}	
+
+	.nav__link-career:before  {
+		background: url("../imgs/icon/career-active.png") 0 0 no-repeat;
+	}
+
+	.nav__link-portfolio:before  {
+		background: url("../imgs/icon/portfolio-active.png") 0 0 no-repeat;
+	}
 }
 
 .nav__link-me:before {

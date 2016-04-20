@@ -6,19 +6,26 @@
 .about__left{
 	float: left;
 }
-.aboet__pic {
+.about__pic {
 	display: inline-block;
-}
-
-.about__pic-item {
 	height: 220px;
 	width: 220px;
 	.border-radius(50%); 
+	background-size: cover;
+	backgraung-repeat: no-repeat;
+	background-position: center center;
+}
+
+.about__pic-item {
+	position: absolute;
+	top: 0;
+	left: 9999px;
+	
 }
 
 .about__right{
 	float: right;
-	display: inline-block;
+	margin-left: 35px;
 }
 
 .about__title {
@@ -31,10 +38,10 @@
 .about__text {
 
 	width: 390px;
-	max-height: 315px;
-	overflow: scroll;
+	max-height: 400px;
+	overflow: hidden;
 	.fira (light);
-	margin-bottom: 48px;
+	margin-bottom: 30px;
 
 }
 
